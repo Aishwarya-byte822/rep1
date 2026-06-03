@@ -2,7 +2,13 @@ def add_numbers():
     pass
 
 def subtract_numbers():
-    pass
+    try:
+        a = int(input("Enter first number : "))
+        b = int(input("Enter second number : "))
+        res = a - b
+        print("Result : ", res)
+    except ValueError:
+        print("Error : Please enter valid integers!")
 
 def multiply_numbers():
     try:
