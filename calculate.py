@@ -1,3 +1,25 @@
+# ==========================================
+# Calculator Project
+#
+# Contributors:
+# Aishwarya Hada        - Roll No: 24ESKCA015
+#     Functions: Power, Modulo,
+#
+# Ajay Kumar Kumawat    - Roll No: 23ESKIT014
+#     Function: Division,Floor Division
+#
+# Aditya Kumar Sharma    - Roll No: 23ESKIT012
+#     Function: Multiplication
+#
+# Aayushi Jain           - Roll No: 24ESKCA008
+#     Function: Subtraction
+#
+# Anushka Meena          - Roll No: 24ESKCA027
+#     Function: Addition
+# ==========================================
+
+
+
 def add_numbers():
     a = int(input("Enter first number : "))
     b = int(input("Enter second number : "))
