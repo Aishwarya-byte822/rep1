@@ -6,13 +6,13 @@ def add_numbers():
     print("Addition result is :", res)
 
 def subtract_numbers():
-    try:
-        a = int(input("Enter first number : "))
-        b = int(input("Enter second number : "))
-        res = a - b
-        print("Result : ", res)
+    try: 
+      a = int(input("Enter first number : "))
+      b = int(input("Enter second number : "))
+      res = a - b
+      print("Result : ", res)
     except ValueError:
-        print("Error : Please enter valid integers!")
+      print("Error : Please enter valid integers!")
 
 def multiply_numbers():
     try:
