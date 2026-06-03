@@ -5,7 +5,39 @@ def subtract_numbers():
     pass
 
 def multiply_numbers():
-    pass
+    try:
+        a = int(input("Enter first number : "))
+        b = int(input("Enter second number : "))
+        res = a * b
+        print("Result : ", res)
+    except ValueError:
+        print("Error : Please enter valid integers!")
+
+
+def power_numbers():
+    try:
+        a = int(input("Enter base number : "))
+        b = int(input("Enter exponent : "))
+        res = a ** b
+        print("Result :", res)
+    except ValueError:
+        print("Error : Please enter valid integers!")
+
+
+def modulo_numbers():
+    try:
+        a = int(input("Enter first number : "))
+        b = int(input("Enter second number : "))
+        res = a % b
+        print("Result :", res)
+    except ValueError:
+        print("Error : Please enter valid integers!")
+    except ZeroDivisionError:
+        print("Error : Modulo by zero not allowed!")
+
+
+def floor_division_numbers():
+    pass       
 
 def divide_numbers():
     a=int(input("Enter first number : "))
@@ -15,15 +47,6 @@ def divide_numbers():
         print("Result : ",res)
     except ZeroDivisionError:
         print("Error : Division by zero not allowed!")
-
-def power_numbers():
-    pass
-
-def modulo_numbers():
-    pass
-
-def floor_division_numbers():
-    pass
 
 
 while True:
