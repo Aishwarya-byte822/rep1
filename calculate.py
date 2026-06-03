@@ -43,7 +43,13 @@ def modulo_numbers():
 
 
 def floor_division_numbers():
-    pass       
+    try:
+        a = int(input("Enter first number : "))
+        b = int(input("Enter second number : "))
+        res = a // b
+        print("Result :", res)
+    except ZeroDivisionError:
+        print("Error : Division by zero not allowed!") 
 
 def divide_numbers():
     a=int(input("Enter first number : "))
@@ -53,7 +59,6 @@ def divide_numbers():
         print("Result : ",res)
     except ZeroDivisionError:
         print("Error : Division by zero not allowed!")
-
 
 while True:
     print("\n===== Calculator =====")
