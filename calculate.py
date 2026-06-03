@@ -16,7 +16,6 @@ def divide_numbers():
     except ZeroDivisionError:
         print("Error : Division by zero not allowed!")
 
-
 while True:
     print("\n===== Calculator =====")
     print("1. Addition")
