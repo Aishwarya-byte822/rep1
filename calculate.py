@@ -10,6 +10,15 @@ def multiply_numbers():
 def divide_numbers():
     pass
 
+def power_numbers():
+    pass
+
+def modulo_numbers():
+    pass
+
+def floor_division_numbers():
+    pass
+
 
 while True:
     print("\n===== Calculator =====")
@@ -17,6 +26,9 @@ while True:
     print("2. Subtraction")
     print("3. Multiplication")
     print("4. Division")
+    print("5. Power")
+    print("6. Modulo")
+    print("7. Floor Division")
     print("0. Exit")
 
     choice = input("Enter choice: ")
@@ -34,10 +46,21 @@ while True:
         case "4":
             divide_numbers()
 
+        case "5":
+            power_numbers()
+
+        case "6":
+            modulo_numbers()
+
+        case "7":
+            floor_division_numbers()
+
         case "0":
             print("Goodbye!")
             break
 
         case _:
             print("Invalid choice")
+
+            
 
