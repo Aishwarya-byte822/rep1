@@ -1,5 +1,9 @@
 def add_numbers():
-    pass
+    a = int(input("Enter first number : "))
+    b = int(input("Enter second number : "))
+
+    res = a + b
+    print("Addition result is :", res)
 
 def subtract_numbers():
     pass
