@@ -1,14 +1,40 @@
+# ==========================================
+# Calculator Project
+#
+# Contributors:
+# Aishwarya Hada        - Roll No: 24ESKCA015
+#     Functions: Power, Modulo,
+#
+# Ajay Kumar Kumawat    - Roll No: 23ESKIT014
+#     Function: Division,Floor Division
+#
+# Aditya Kumar Sharma    - Roll No: 23ESKIT012
+#     Function: Multiplication
+#
+# Aayushi Jain           - Roll No: 24ESKCA008
+#     Function: Subtraction
+#
+# Anushka Meena          - Roll No: 24ESKCA027
+#     Function: Addition
+# ==========================================
+
+
+
 def add_numbers():
-    pass
+    a = int(input("Enter first number : "))
+    b = int(input("Enter second number : "))
+
+    res = a + b
+    print("Addition result is :", res)
 
 def subtract_numbers():
-    try:
-        a = int(input("Enter first number : "))
-        b = int(input("Enter second number : "))
-        res = a - b
-        print("Result : ", res)
+    try: 
+      a = int(input("Enter first number : "))
+      b = int(input("Enter second number : "))
+      res = a - b
+      print("Result : ", res)
     except ValueError:
-        print("Error : Please enter valid integers!")
+      print("Error : Please enter valid integers!")
 
 def multiply_numbers():
     try:
@@ -43,7 +69,13 @@ def modulo_numbers():
 
 
 def floor_division_numbers():
-    pass       
+    try:
+        a = int(input("Enter first number : "))
+        b = int(input("Enter second number : "))
+        res = a // b
+        print("Result :", res)
+    except ZeroDivisionError:
+        print("Error : Division by zero not allowed!") 
 
 def divide_numbers():
     a=int(input("Enter first number : "))
